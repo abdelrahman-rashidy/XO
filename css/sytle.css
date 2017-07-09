@@ -1,0 +1,58 @@
+.outer{
+	width: 50%;
+	margin:auto ;
+}
+.row {
+	width:100%;
+
+}
+input{
+	margin:0px;
+	width:150px;
+	height: 150px;
+	border:none;
+}
+.user-name{
+margin-left: 10%;
+text-align: center;
+}
+.user-name .fr-user{
+width:40%;
+float: left;
+}
+.user-name input{
+	width:80%;
+	text-align: center;
+	height:20px;
+	font-size: 20px;
+	background-color: #eee;
+	border: 2px solid #aaa;
+}
+.user-name .nd-user{
+	width:40%;
+	float: left;
+	margin-left:10%
+}
+
+.start input{
+	width: 20%;
+	height:80px;
+	font-weight: bolder;
+	margin-left:40%;
+	margin-top: 10px;
+	border: 2px solid #aaa;
+
+}
+@media only screen and (max-width:800px) {
+.outer{
+	width: 90%;
+	margin:auto ;
+}
+input{
+	margin:0px;
+	width:32%;
+	height: 15vh;
+	border:none;
+}
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+	<title> Let's play XO </title>
+	<link rel="stylesheet" href="css/sytle.css"></head>
+<body>
+
+<div class="outer">
+	 <div class="row">
+	 	<input name="b[]" onclick="XO(this)" type="button" value="1"  disabled/>
+	 	<input name="b[]" onclick="XO(this)" type="button" value="2" disabled/>
+	 	<input name="b[]" onclick="XO(this)" type="button" value="3" disabled/>
+	 </div>
+	 <div class="row">
+	 	<input name="b[]"  onclick="XO(this)" type="button" value="4" disabled/>
+	 	<input name="b[]" onclick="XO(this)" type="button" value="5" disabled/>
+	 	<input name="b[]" onclick="XO(this)" type="button" value="6" disabled/>
+	 </div>
+	 <div class="row">
+	 	<input name="b[]" onclick="XO(this)" type="button" value="7" disabled/>
+	 	<input name="b[]" onclick="XO(this)" type="button" value="8" disabled/>
+	 	<input name="b[]" onclick="XO(this)" type="button" value="9" disabled/>
+	 </div>
+</div>
+
+<div class="user-name">
+<div class="fr-user">
+<h2>first player</h2>
+	<input id="fr-name" type="text" name="userName[]" placeholder="Your Name" value="X">
+	<h3 id="score1">212</h3>
+</div>
+<div class="nd-user">
+<h2>second player</h2>
+	<input id="nd-name" type="text" name="userName[]" placeholder="Your Name" value="O">
+	<h3 id="score2">12</h3>
+</div>
+</div>
+
+<div class="start">
+	<input id="start" onclick="starting()" type="button" value="start the game">
+</div>
+	
+</div>
+	<script src="js/game.js" type="text/javascript"></script>
+</body>
+</html>
